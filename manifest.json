@@ -3,5 +3,16 @@
 
     "name": "sstk-chrome-app",
     "description": "This app will modify one of the internal pages of Shutterstock.com to make it more convenient and improve my own experience with the site. ",
-    "version": "1.0"
+    "version": "1.0",
+    "icons": {
+        "16": "imgs/16.png",
+        "32": "imgs/32.png",
+        "48": "imgs/48.png",
+        "128": "imgs/128.png"
+    },
+    "content_scripts":[{
+        "matches": ["https://submit.shutterstock.com/earnings/top-performers?language=en"],
+        "js": ["contentScript.js"],
+        "run_at": "document_end"
+    }]
 }
