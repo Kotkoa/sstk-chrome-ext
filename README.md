@@ -1,3 +1,3 @@
 # sstk-chrome-ext
 
-This app will add to the shutterstock webssite addition UX for better performance.
+This app will modify one of the internal pages of Shutterstock.com to make it more convenient and improve my own experience with the site.
